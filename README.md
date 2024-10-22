@@ -35,13 +35,7 @@ This project was part of the Codalab competition on leaf classification. The key
 - `weighted_ensemble.ipynb`: Combines model outputs via a weighted ensemble for improved accuracy.
 - `report.pdf`: Full description of the problem, methodology, and results of the competition.
 
-## Setup and Installation
-To run the notebooks in this repository, follow these steps:
-1. Ensure Python 3.x and Jupyter Notebook are installed.
-2. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
+
 
 ## Usage
 Each notebook can be run independently:
@@ -49,7 +43,6 @@ Each notebook can be run independently:
 - **For ConvNext fine-tuning**: Run `convnext_finetuning.ipynb`.
 - **To explore ensemble learning techniques**: Run `weighted_ensemble.ipynb`.
 
-Open each notebook in Jupyter and execute the cells sequentially to see the code and output.
 
 ## Results
 The final model achieved significant improvements in classification accuracy through the use of transfer learning and data augmentation techniques. The ensemble approach further boosted performance by combining multiple models' predictions. The detailed results and analysis are provided in the [`report.pdf`](./report.pdf).
